@@ -13,6 +13,7 @@ This directory contains different WebRTC clients and compatible WebSocket + JSON
 - [media-sender](media-sender) is a copy/paste example capturing the webcam with gstreamer and sending it to the web browser.
 - [media-sfu](media-sfu) is a copy/paste SFU relaying the webcam between web browsers.
 - [streamer](streamer) streams h264 and opus samples to web browsers (signaling-server-python is required).
+- [p2p] bunu ben oluşturdum. Şu an sadece 2 farklı kod ile birinden diğerine görüntü aktarımı yapmaya çalışıyorum.
 
 Additionally, it contains two debugging tools for libdatachannel with copy-pasting as signaling:
 - [copy-paste](copy-paste) using the C++ API
